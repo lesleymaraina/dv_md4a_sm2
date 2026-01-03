@@ -1,0 +1,105 @@
+---
+title: "Designing Interactive Dashboards for Research Use"
+author: "<br><br><span style='font-size:25px;'><strong>Lesley Chapman Hannah, Ph.D., M.S.</strong></span><br>College of Graduate Studies<br>Northeast Ohio Medical University"
+
+format: 
+  revealjs:
+    #theme: solarized
+    css: style.css
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/Flame.jpg
+    #css: styles.css
+    
+---
+
+## Review: What Is a Dashboard Scientifically?
+
+- A dashboard is a coordinated analytical environment in which each visual component is deliberately selected, positioned, and linked to support a predefined decision workflow
+
+- Unlike static figures in a paper, dashboards encode process:
+
+  - which evidence is allowed to influence the decision
+  - what questions are expected to be asked
+  - the order the scientific questions are addressed
+
+::: footer
+
+:::
+
+## Identifying the Dashboard Primary User
+
+- dashboard support specific decision-makers
+- collaborators (i.e.: clinicians, translational scientists, biostatisticians) will interpret evidence differently and prioritize different signals
+- a single dashboard can have different visual priorities depending on the audience 
+- dashboards are designed to reflect the interests of the audience
+
+::: footer
+:::
+
+## <span style="font-size:80%">Biomedical Code Example: Simulated Trial Monitoring Dashboard</span> {.smaller}
+
+- Dashboards for clinical trial patient monitoring integrate multiple evidence streams: enrollment, safety, efficacy, and protocol compliance
+- Data presented in the dashboard could inform high-stakes actions such as pausing enrollment or escalating safety reviews
+
+::: footer
+
+:::
+
+
+## <span style="font-size:80%">Biomedical Code Example: Simulated Trial Monitoring Dashboard</span> {.smaller}
+
+- In the following code example, we’ll explore the following clinical or translational trial data:
+
+  - Enrollment data : responsibility to ensure recruitment is on track and representative
+  - Safety data : responsibility to detect adverse events and protect participant welfare
+  - Efficacy data : responsibility to assess whether the intervention is showing benefit
+  - Protocol compliance data : responsibility to ensure the trial is being conducted correctly and consistently
+
+::: footer
+
+:::
+
+## <span style="font-size:80%">Biomedical Code Example: Simulated Trial Monitoring Dashboard</span> {.smaller}
+
+- simplified trial monitoring dashboard designed to reflect how evidence is actually evaluated during an ongoing clinical study
+- dashboard is organized around four distinct evidence streams: enrollment, safety, early efficacy, and protocol compliance
+- each stream answers a different scientific or operational question
+
+::: footer
+
+:::
+
+## <span style="font-size:80%"></span> {.smaller}
+
+*Navigate to dashboard*
+
+::: footer
+
+:::
+
+## <span style="font-size:80%">Biomedical Code Example: Simulated Trial Monitoring Dashboard</span> {.smaller}
+
+- Example shows how the use of a dashboard for monitoring clinical trial results organizes multiple types of information that are reviewed in parallel during an ongoing study
+- illustrates how multiple streams of data can be displayed together without implying that one outcome is more important than another
+- consistent layout, shared time axes, and clearly defined denominators allows users to compare trends across panels while keeping each metric tied to its specific monitoring purpose
+- structure of the dashboard makes it easier to interpret changes in one stream—such as enrollment or adverse events
+
+::: footer
+
+:::
+
+
+## <span style="font-size:80%">Summary</span> {.smaller}
+
+- Designing interactive dashboards for research use involves creating analytical environments that keep multiple forms of evidence visible, aligned, and interpretable
+- Clinical monitoring dashboard shows how multiple research-relevant evidence streams—enrollment, safety, efficacy, and protocol compliance—can be organized within a single interface so they are interpreted together, rather than as isolated outcomes
+- dashboard design for research use can account for changing exposure and sample size
+- Designing interactive dashboards for research use, the use of a consistent layout and shared time axes demonstrates how design choices can support meaningful comparison across panels while preserving the distinct analytical role of each metric
+
+
+::: footer
+
+:::
